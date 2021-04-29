@@ -15,11 +15,11 @@ eureka:
  client:
   serviceUrl:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
-  register-with-eureka:false
+  register-with-eureka: false
 
  info:
-   app.name:microcloud-config-client-devdev
-   company.name:enjoy
+   app.name: microcloud-config-client-devdev
+   company.name: enjoy
 ---
 server:
   port: 8102
@@ -33,8 +33,8 @@ eureka:
  client:
   serviceUrl:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
-  register-with-eureka:false
+  register-with-eureka: false
 
  info:
-   app.name:microcloud-config-client-beta
-   company.name:enjoybeta
+   app.name: microcloud-config-client-beta
+   company.name: enjoybeta
