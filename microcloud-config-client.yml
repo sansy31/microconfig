@@ -16,6 +16,7 @@ eureka:
   serviceUrl:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
   register-with-eureka: false
+  fetch-registry: false
 
  info:
    app.name: microcloud-config-client-devdev
@@ -34,6 +35,7 @@ eureka:
   serviceUrl:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
   register-with-eureka: false
+  fetch-registry: false
 
  info:
    app.name: microcloud-config-client-beta
